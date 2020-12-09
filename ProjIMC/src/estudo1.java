@@ -7,8 +7,7 @@ public class estudo1 {
 		Scanner sc = new Scanner(System.in);
 		
 		
-		System.out.print("Digite o nome: ");
-		String nome = sc.next();
+		
 		System.out.print("Digite idade: ");
 		int idade = sc.nextInt();
 		System.out.print("Digite peso: ");
@@ -19,7 +18,7 @@ public class estudo1 {
 		float imc = peso/(alt * alt);
 		float ResImc = imc;
 		
-		System.out.println(nome);
+		
 		System.out.println(idade);	
 		System.out.println(peso);
 		System.out.println(alt);
@@ -35,7 +34,7 @@ public class estudo1 {
 		}
 		
 		
-	
+	sc.close();
 			
 		
 		
